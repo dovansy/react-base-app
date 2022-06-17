@@ -24,6 +24,7 @@ module.exports = {
         Lato: ['Lato', 'sans-serif'],
       },
       colors: {
+        homepageColor: 'var(--homepage-color)',
         transparent: 'transparent',
         current: 'currentColor',
         '': '#262A47',

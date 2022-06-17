@@ -1,9 +1,8 @@
-import React from 'react';
 import { I18nextProvider } from 'react-i18next';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-import './App.css';
 import '~/styles/index.scss';
+import './App.css';
 import { store } from './store';
 import i18n from './utils/i18n';
 import RootWrapper from './wappers/RootWrapper';

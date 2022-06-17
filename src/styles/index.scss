@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @import './variables.scss';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900');
+@import './darkTheme.scss';
+@import './lightTheme.scss';
+@import './switchTheme.scss';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat&display=swap');
 
 body {
   font-family: var(--font-family);
@@ -11,6 +14,9 @@ body {
   line-height: 1.5;
   text-rendering: optimizespeed;
   overflow-y: overlay;
+  background-color: var(--background-color);
+  color: var(--color);
+  transition: background 0.2s linear;
 }
 
 button,

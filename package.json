@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.4",
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -33,6 +36,7 @@
     "customize-cra": "^1.0.0",
     "husky": "^7.0.4",
     "lint-staged": "^12.3.8",
+    "node-sass": "^7.0.1",
     "postcss": "^8.4.14",
     "postcss-import": "^14.1.0",
     "prettier": "2.6.2",

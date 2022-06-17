@@ -3,3 +3,7 @@ export type TUser = {
   userName: string;
   age: number;
 };
+
+export type TTheme = {
+  mode: string;
+};
